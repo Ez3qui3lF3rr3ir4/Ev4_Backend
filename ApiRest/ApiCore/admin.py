@@ -1,3 +1,8 @@
+"""Admin registration for ApiCore models.
+
+Define how models appear in the Django admin site.
+"""
+
 from django.contrib import admin
 from .models import Company, Equipment, Technician, MaintenancePlan, WorkOrder
 
